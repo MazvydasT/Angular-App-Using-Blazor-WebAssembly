@@ -1,0 +1,3 @@
+<div *ngFor="let resultFromDotNet of resultFromDotNet | async; index as i">
+  {{numbersToSumArray[i].join(' + ')}} = {{resultFromDotNet}}
+</div>
